@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "web-store-app-shell";
-const CACHE_NAME = `${CACHE_PREFIX}-v7`;
+const CACHE_NAME = `${CACHE_PREFIX}-v8`;
 const APP_BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [APP_BASE, `${APP_BASE}index.html`, `${APP_BASE}manifest.webmanifest`, `${APP_BASE}store-icon.svg`, `${APP_BASE}icons/ide-konten-192.png`];
 
