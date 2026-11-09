@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "web-store-app-shell";
-const CACHE_NAME = `${CACHE_PREFIX}-v9`;
+const CACHE_NAME = `${CACHE_PREFIX}-v10`;
 const APP_BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [
   APP_BASE,
@@ -10,7 +10,8 @@ const APP_SHELL = [
   `${APP_BASE}assets/index-mobile.css`,
   `${APP_BASE}assets/store-apps-full.js`,
   `${APP_BASE}icons/ide-konten-192.png`,
-  `${APP_BASE}icons/ai-key-hub-192.png`
+  `${APP_BASE}icons/ai-key-hub-192.png`,
+  `${APP_BASE}icons/fattah-chat-192.png`
 ];
 
 self.addEventListener("install", (event) => {
