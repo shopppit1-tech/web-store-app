@@ -11,3 +11,8 @@ After publishing from the `main` branch root, the site is available at:
 https://shopppit1-tech.github.io/web-store-app/
 
 This repository contains only the compiled static website and public app entries; no backend secrets are included.
+
+
+## Entri terbaru
+
+**Ketawain** — 36 ide video absurd vertikal dengan filter, favorit, detail formula komedi, prompt video AI, dan dukungan PWA. Live: https://shopppit1-tech.github.io/ketawain/

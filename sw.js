@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "web-store-app-shell";
-const CACHE_NAME = `${CACHE_PREFIX}-v12`;
+const CACHE_NAME = `${CACHE_PREFIX}-v13`;
 const APP_BASE = new URL("./", self.location.href).pathname;
 const APP_SHELL = [
   APP_BASE,
@@ -13,7 +13,8 @@ const APP_SHELL = [
   `${APP_BASE}icons/ide-konten-192.png`,
   `${APP_BASE}icons/ai-key-hub-192.png`,
   `${APP_BASE}icons/fattah-chat-192.png`,
-  `${APP_BASE}icons/monopoli-online-3d.svg`
+  `${APP_BASE}icons/monopoli-online-3d.svg`,
+  `${APP_BASE}icons/ketawain-192.png`
 ];
 
 self.addEventListener("install", (event) => {
